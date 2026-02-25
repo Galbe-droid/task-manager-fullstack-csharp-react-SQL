@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using TaskManager.Data;
 using TaskManager.Dto.User;
 using TaskManager.Service.Interface;
@@ -7,6 +8,7 @@ namespace TaskManager.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [EnableRateLimiting("fixed")]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
