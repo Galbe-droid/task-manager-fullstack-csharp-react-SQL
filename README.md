@@ -79,4 +79,25 @@ O projeto utiliza:
 - `ConnectionStrings:DefaultConnection`
 
 As credenciais não estão versionadas e devem ser configuradas via User Secrets ou variáveis de ambiente.
+```
 
+### Dashboard
+![Dashboard](docs/dashboard.png)
+
+### Login
+![Login](docs/login.png)
+
+### Registro
+![Registro](docs/register.png)
+
+### Dashboard - Login
+![Dashboard - Login](docs/dashboard_login.png)
+
+### Adicionar Task
+![Adicionar](docs/AddTask.png)
+
+### Visualizar Task
+![Visualizar](docs/visualizarTask.png)
+
+### Atualizar Task
+![Atualizar](docs/atualizarTask.png)
