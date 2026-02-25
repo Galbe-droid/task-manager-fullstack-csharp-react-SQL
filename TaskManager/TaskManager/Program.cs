@@ -7,9 +7,10 @@ using TaskManager.Service;
 using TaskManager.Service.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 
 // Add services to the container.
-
+builder.WebHost.UseUrls($"http://*:{port}");
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
