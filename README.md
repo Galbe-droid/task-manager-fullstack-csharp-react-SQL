@@ -85,7 +85,7 @@ As credenciais não estão versionadas e devem ser configuradas via User Secrets
 ![Dashboard](docs/dashboard.JPG)
 
 ### Login
-![Login](docs/login.JPG)
+![Login](docs/Login.JPG)
 
 ### Registro
 ![Registro](docs/register.JPG)
