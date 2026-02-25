@@ -1,6 +1,14 @@
+![.NET](https://img.shields.io/badge/.NET-8-blue)
+![React](https://img.shields.io/badge/React-18-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-blue)
+
 # 🚀 Task Manager Fullstack
 
 Sistema completo de gerenciamento de tarefas com autenticação JWT.
+
+## 🎯 Objetivo
+
+Projeto desenvolvido com foco em arquitetura fullstack moderna, autenticação segura e deploy em ambiente cloud.
 
 ## 🛠 Tecnologias
 
@@ -8,6 +16,7 @@ Sistema completo de gerenciamento de tarefas com autenticação JWT.
 - ASP.NET Core 8
 - Entity Framework Core
 - SQL Server
+- Postgres SQL (em deploy no Neon)
 - JWT Authentication
 
 ### Frontend
@@ -15,6 +24,11 @@ Sistema completo de gerenciamento de tarefas com autenticação JWT.
 - TypeScript
 - Axios
 - Tailwind CSS
+
+  ### Cloud / Deploy
+- Render (Backend)
+- Vercel (Frontend)
+- Neon (Database)
 
 ---
 
@@ -32,14 +46,39 @@ Sistema completo de gerenciamento de tarefas com autenticação JWT.
 
 ---
 
-## ⚙️ Como rodar o projeto
+## 🌍 Live Demo
+- Web: https://task-manager-web-plum.vercel.app/
 
-### Configurar
-- No Front em Api.ts colocar o host do back end
-- No Back em appsettings.json colocar a chave JWT 64bits e o banco de dados SQL
+---
+
+## ⚙️ Como rodar localmente
 
 ### Backend
 
 ```bash
-cd TaskManagerBackend
+dotnet restore
+dotnet ef database update
 dotnet run
+```
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 8️⃣ 🔐 Variáveis de Ambiente
+
+```markdown
+## 🔐 Variáveis de Ambiente
+
+O projeto utiliza:
+
+- `Jwt:Key`
+- `ConnectionStrings:DefaultConnection`
+
+As credenciais não estão versionadas e devem ser configuradas via User Secrets ou variáveis de ambiente.
+
