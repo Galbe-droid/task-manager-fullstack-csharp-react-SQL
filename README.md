@@ -70,11 +70,9 @@ npm run dev
 
 ---
 
-## 8️⃣ 🔐 Variáveis de Ambiente
-
-```markdown
 ## 🔐 Variáveis de Ambiente
 
+```markdown
 O projeto utiliza:
 
 - `Jwt:Key`
