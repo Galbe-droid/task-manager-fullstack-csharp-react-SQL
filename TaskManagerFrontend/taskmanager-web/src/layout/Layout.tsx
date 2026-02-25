@@ -12,8 +12,9 @@ export default function Layout() {
                     <Outlet/>
                 </div>      
             </div>
-            <footer>
+            <footer className="flex-1 justify-items-center">
                     <h5>Projetado por: Gabriel Lima Bertoldo</h5>
+                    <h5>Host Gratuito Render, o servidor por estar dormente fazendo com que certas ações demorem mais tempo que o normal</h5>
             </footer> 
         </div>
     )
