@@ -34,6 +34,10 @@ Sistema completo de gerenciamento de tarefas com autenticação JWT.
 
 ## ⚙️ Como rodar o projeto
 
+### Configurar
+- No Front em Api.ts colocar o host do back end
+- No Back em appsettings.json colocar a chave JWT 64bits e o banco de dados SQL
+
 ### Backend
 
 ```bash
