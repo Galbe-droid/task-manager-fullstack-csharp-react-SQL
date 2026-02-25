@@ -19,7 +19,6 @@ export default function LoginUserPage() {
         try
         {
             await login(loginForm);
-            window.location.reload();
             navigate("..")
         } 
         catch

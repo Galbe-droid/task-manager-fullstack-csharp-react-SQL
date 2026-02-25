@@ -37,7 +37,6 @@ export default function Sidebar(){
                     <div className="button pt-5 pb-5 hover:bg-sky-700">
                         <button type="button"  onClick={() => {logout();
                                                               navigate("/");
-                                                              window.location.reload();
                                                              }}>Logout</button>
                     </div>
                 </>

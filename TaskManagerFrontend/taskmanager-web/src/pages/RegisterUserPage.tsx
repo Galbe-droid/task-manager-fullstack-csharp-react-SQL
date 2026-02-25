@@ -17,8 +17,7 @@ export default function RegisterUserPage() {
 
         try
         {
-            register(registerForm);
-            window.location.reload();
+            await register(registerForm);
             navigate("/login")
         } 
         catch
