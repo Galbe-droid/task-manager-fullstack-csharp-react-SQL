@@ -82,22 +82,22 @@ As credenciais não estão versionadas e devem ser configuradas via User Secrets
 ```
 
 ### Dashboard
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/dashboard.jpg)
 
 ### Login
-![Login](docs/login.png)
+![Login](docs/login.jpg)
 
 ### Registro
-![Registro](docs/register.png)
+![Registro](docs/register.jpg)
 
 ### Dashboard - Login
-![Dashboard - Login](docs/dashboard_login.png)
+![Dashboard - Login](docs/dashboard_login.jpg)
 
 ### Adicionar Task
-![Adicionar](docs/AddTask.png)
+![Adicionar](docs/AddTask.jpg)
 
 ### Visualizar Task
-![Visualizar](docs/visualizarTask.png)
+![Visualizar](docs/visualizarTask.jpg)
 
 ### Atualizar Task
-![Atualizar](docs/atualizarTask.png)
+![Atualizar](docs/atualizarTask.jpg)
