@@ -23,7 +23,7 @@ export default function LoginUserPage() {
         } 
         catch
         {
-            setError("Failed to Register")
+            setError("Failed to Login")
         }
     }
 
